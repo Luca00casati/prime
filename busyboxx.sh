@@ -46,6 +46,7 @@ cd initrd
     echo 'sysctl -w kernel.printk="2 4 1 7"' >> init
     #echo 'clear' >> init
     echo '/bin/sh' >> init
+    echo 'poweroff -f' >> init
 
     chmod -R 777 .
 
