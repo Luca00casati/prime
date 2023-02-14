@@ -3,7 +3,7 @@
 #sudo apt install libc6-dev build-essential libncurses-dev bison flex libssl-dev libelf-dev musl on deb based
 
 BUSYBOX_VERSION=1.36.0
-LINUX_VERSION=5.15.2
+LINUX_VERSION=2.6.15
 mkdir -p src
 cd src
     #linux    
